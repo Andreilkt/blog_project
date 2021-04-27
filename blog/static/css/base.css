@@ -2,6 +2,8 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
+  border-color: aqua;
+  border-style: solid;
 }
 
 header {
@@ -11,7 +13,7 @@ header {
 }
 
 header h1 a {
-  color: red;
+  color: green;
   text-decoration: none;
 }
 
@@ -28,6 +30,8 @@ header h1 a {
 
 .post-entry {
   margin-bottom: 2rem;
+  border-color: gray;
+  border-style: solid;
 }
 
 .post-entry h2 {
@@ -46,5 +50,5 @@ header h1 a {
 }
 
 .post-entry h2 a:hover {
-  color: red;
+  color: greenyellow;
 }
